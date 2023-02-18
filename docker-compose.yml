@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jupyter:
+    image: jupyter/base-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - /home/sakabuana31/DigitalSkola/Learning/latihan_spark:/home/jovyan/work
